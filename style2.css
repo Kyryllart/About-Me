@@ -1,0 +1,36 @@
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url('222.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.box {
+    text-align: center;
+    margin: auto;
+    padding: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    max-width: 100%;
+    backdrop-filter: blur(19px);
+    text-align: center;
+    border-radius: 16px;
+    color: wheat;
+    text-shadow: 10px 10px 10px black;
+    font-family: cursive;
+}
+
+.box img {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.socials a {
+    text-decoration: none;
+    color: aquamarine;
+}
