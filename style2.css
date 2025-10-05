@@ -25,6 +25,10 @@ body {
     font-family: cursive;
 }
 
+.box p {
+    color: hotpink;
+}
+
 .box img {
     border-radius: 50%;
     object-fit: cover;
