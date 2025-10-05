@@ -22,7 +22,7 @@ body {
     border-radius: 16px;
     color: wheat;
     text-shadow: 10px 10px 10px black;
-    font-family: cursive;
+    font-family: 'Comic Sans MS', cursive;
 }
 
 .box p {
