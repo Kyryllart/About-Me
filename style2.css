@@ -3,7 +3,7 @@ body {
     place-items: center;
     min-height: 100vh;
     margin: 0;
-    background-image: url('222.gif');
+    background-image: url('bg.gif');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -22,11 +22,22 @@ body {
     border-radius: 16px;
     color: wheat;
     text-shadow: 10px 10px 10px black;
-    font-family: 'Comic Sans MS', cursive;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(29, 43, 38, 0.322);
 }
 
-.box p {
-    color: hotpink;
+.box h1, p {
+    color: rgb(241, 241, 241);
+    font-weight: bold;
+    background: linear-gradient(to right, #ffaa40, #4079ff, #ffaa40);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-weight: bold;
+    text-align: center;
+    animation: gradientAnimation 5s ease infinite alternate;
 }
 
 .box img {
@@ -37,4 +48,28 @@ body {
 .socials a {
     text-decoration: none;
     color: aquamarine;
+}
+
+.socials img {
+    width: 30px;
+    padding: 2%;
+    transition: 0.3s ease;
+}
+
+.socials img:hover {
+    transform: scale(1.3);
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
