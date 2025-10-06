@@ -43,6 +43,13 @@ body {
 .box img {
     border-radius: 50%;
     object-fit: cover;
+    transition: 1s ease-in-out;
+}
+
+.box img:hover {
+    border-radius: 16px;
+    width: 400px;
+    height: 400px;
 }
 
 .socials a {
